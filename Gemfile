@@ -25,3 +25,7 @@ gem 'sqlite3'
 #
 #
 gem 'hdf5'
+
+group :development, :test do
+    gem 'rspec-rails', '~> 3.0.0'
+end
