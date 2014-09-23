@@ -1,3 +1,17 @@
+GIT
+  remote: https://github.com/Enucatl/hdf5.git
+  revision: d307dcc3774b6b81054b957e61dc4a754e79c52f
+  specs:
+    hdf5 (0.4.0)
+      ffi
+      narray
+
+GIT
+  remote: https://github.com/Enucatl/narray-devel.git
+  revision: f00aa83802119a3ac4b2908da9b42f42a5675966
+  specs:
+    narray (0.9.3.pre.1.pre.gf00a)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -32,9 +46,6 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     ffi (1.9.3)
-    hdf5 (0.3.5)
-      ffi
-      narray
     hike (1.2.3)
     i18n (0.6.11)
     json (1.8.1)
@@ -44,7 +55,6 @@ GEM
     mime-types (1.25.1)
     minitest (5.4.1)
     multi_json (1.10.1)
-    narray (0.6.0.9)
     polyglot (0.3.5)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -108,7 +118,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  hdf5
+  hdf5!
+  narray!
   rails (= 4.1.5)
   rails-api
   rspec-rails (~> 3.0.0)

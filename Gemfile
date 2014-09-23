@@ -24,7 +24,8 @@ gem 'sqlite3'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 #
 #
-gem 'hdf5'
+gem 'narray', :git => "https://github.com/Enucatl/narray-devel.git"
+gem 'hdf5', :git => "https://github.com/Enucatl/hdf5.git"
 
 group :development, :test do
     gem 'rspec-rails', '~> 3.0.0'
