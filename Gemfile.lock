@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Enucatl/hdf5.git
-  revision: d307dcc3774b6b81054b957e61dc4a754e79c52f
+  revision: 6f2f043c41121c50c7cb808ef265cff5b542e880
   specs:
     hdf5 (0.4.0)
       ffi
@@ -8,9 +8,9 @@ GIT
 
 GIT
   remote: https://github.com/Enucatl/narray-devel.git
-  revision: f00aa83802119a3ac4b2908da9b42f42a5675966
+  revision: 4ecf13ad8bfc3c14dae851f25c4dd604efdd4769
   specs:
-    narray (0.9.3.pre.1.pre.gf00a)
+    narray (0.9.3.pre.2.pre.g4ecf)
 
 GEM
   remote: https://rubygems.org/
@@ -45,7 +45,7 @@ GEM
     builder (3.2.2)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    ffi (1.9.3)
+    ffi (1.9.5)
     hike (1.2.3)
     i18n (0.6.11)
     json (1.8.1)
@@ -53,7 +53,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    minitest (5.4.1)
+    minitest (5.4.2)
     multi_json (1.10.1)
     polyglot (0.3.5)
     rack (1.5.2)
