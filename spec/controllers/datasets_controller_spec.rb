@@ -13,7 +13,7 @@ RSpec.describe DatasetsController, :type => :controller do
          )
       expect(response).to be_success
     end
-    it "returns http 404" do
+    it "raises not found error" do
       get(:show,
           {
           "file_name" => "/afs/psi.ch/project/hedpc/raw_data/2014/ccdfli/2014.09.09/S00000-00999/non-existent.hdf5",
@@ -21,7 +21,7 @@ RSpec.describe DatasetsController, :type => :controller do
       },
           { "Accept" => "application/json" }
          )
-      expect(response.status).to eq(404)
+      expect().to raise_error(ActionController::RoutingError)
     end
   end
 

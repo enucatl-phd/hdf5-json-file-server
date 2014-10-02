@@ -3,13 +3,14 @@ class DatasetsController < ApplicationController
 
     def show
         puts params
-        file = Hdf5::H5File.new(params[:file_name])
-        dataset = file.dataset(params[:dataset])
-        puts dataset
-        puts dataset.narray_type
-        narray = dataset.narray_all
-        puts narray
+        begin
+          file = Hdf5::H5File.new(params[:file_name])
+        rescue Errno::ENOENT
+          not_found
+        end
+        dataset = file.dataset(params[:dataset]).narray_all
         file.close
-        respond_with narray
+        p dataset.to_json
+        respond_with dataset
     end
 end
