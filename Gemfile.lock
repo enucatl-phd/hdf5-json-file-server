@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Enucatl/hdf5.git
-  revision: 6f2f043c41121c50c7cb808ef265cff5b542e880
+  revision: 1997f9820330b6acf2b0ba307b18ee52a4ba9f53
   specs:
     hdf5 (0.4.0)
       ffi
