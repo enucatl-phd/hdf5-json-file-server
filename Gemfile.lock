@@ -8,9 +8,9 @@ GIT
 
 GIT
   remote: https://github.com/Enucatl/narray-devel.git
-  revision: 4ecf13ad8bfc3c14dae851f25c4dd604efdd4769
+  revision: 75c855e5441a71d9d00b31b28197261886ade5ca
   specs:
-    narray (0.9.3.pre.2.pre.g4ecf)
+    narray (0.9.4)
 
 GEM
   remote: https://rubygems.org/
