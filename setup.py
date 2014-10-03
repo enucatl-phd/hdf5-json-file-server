@@ -9,6 +9,8 @@ with open(os.path.join(here, 'CHANGES.txt')) as f:
     CHANGES = f.read()
 
 requires = [
+    'numpy',
+    'h5py',
     'pyramid',
     'pyramid_chameleon',
     'pyramid_debugtoolbar',
